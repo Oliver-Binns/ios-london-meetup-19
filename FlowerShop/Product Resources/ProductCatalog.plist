@@ -2,61 +2,113 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Agapanthus</key>
+	<key>Apple</key>
 	<dict>
 		<key>label</key>
-		<string>Agapanthus</string>
+		<string>Apple</string>
 		<key>description</key>
-		<string>The Agapanthus flower.</string>
+		<string>1 large, (242 g/8 oz)</string>
+		<key>serving</key>
+		<string>1 large, (242 g/8 oz)</string>
 	</dict>
-	<key>Bougainvillea</key>
+	<key>Avocado</key>
 	<dict>
 		<key>label</key>
-		<string>Bougainvillea</string>
+		<string>Avocado</string>
 		<key>description</key>
-		<string>The Bougainvillea flower.</string>
+		<string>1 medium, (154 g/5.5 oz)</string>
+		<key>calories</key>
+		<integer>50</integer>
 	</dict>
-	<key>Ivy</key>
+	<key>Banana</key>
 	<dict>
 		<key>label</key>
-		<string>Ivy</string>
+		<string>Banana</string>
+		<key>calories</key>
+		<integer>110</integer>
 		<key>description</key>
-		<string>The Ivy flower.</string>
+		<string>1/5 medium, (30 g/1.1 oz)</string>
 	</dict>
-	<key>Jasmine</key>
+	<key>Cantaloupe</key>
 	<dict>
 		<key>label</key>
-		<string>Jasmine</string>
+		<string>Cantaloupe</string>
 		<key>description</key>
-		<string>The Jasmine flower.</string>
+		<string>1/4 medium, (134 g/4.8 oz)</string>
+		<key>calories</key>
+		<integer>50</integer>
 	</dict>
-	<key>Tansy</key>
+	<key>Cherry</key>
 	<dict>
 		<key>label</key>
-		<string>Tansy</string>
+		<string>Cherry</string>
 		<key>description</key>
-		<string>The Tansy flower.</string>
+		<string>21 cherries; 1 cup, (140 g/5.0 oz)</string>
+		<key>calories</key>
+		<integer>100</integer>
 	</dict>
-	<key>Trumpet_creeper</key>
+	<key>Grapefruit</key>
 	<dict>
 		<key>label</key>
-		<string>Trumpet Creeper</string>
+		<string>Grapefruit</string>
 		<key>description</key>
-		<string>The Trumper Creeper flower.</string>
+		<string>1/2 medium, (154 g/5.5 oz)</string>
+		<key>calories</key>
+		<integer>60</integer>
 	</dict>
-	<key>Verbena</key>
+	<key>Grapes</key>
 	<dict>
 		<key>label</key>
-		<string>Verbena</string>
+		<string>Grapes</string>
 		<key>description</key>
-		<string>The Verbena flower.</string>
+		<string>3/4 cup, (126 g/4.5 oz)</string>
+		<key>calories</key>
+		<integer>90</integer>
 	</dict>
-	<key>Fertilizer</key>
+	<key>Kiwi</key>
 	<dict>
 		<key>label</key>
-		<string>Fertilizer</string>
+		<string>Kiwi</string>
 		<key>description</key>
-		<string>Fertilizer helps your flowers grow.</string>
+		<string>2 medium, (148 g/5.3 oz)</string>
+		<key>calories</key>
+		<integer>90</integer>
+	</dict>
+	<key>Lemon</key>
+	<dict>
+		<key>label</key>
+		<string>Lemon</string>
+		<key>description</key>
+		<string>A Lemon</string>
+	</dict>
+	<key>Lime</key>
+	<dict/>
+	<key>Orange</key>
+	<dict>
+		<key>label</key>
+		<string>Orange</string>
+		<key>description</key>
+		<string>1 medium, (154 g/5.5 oz)</string>
+		<key>calories</key>
+		<string></string>
+	</dict>
+	<key>Pineapple</key>
+	<dict>
+		<key>label</key>
+		<string>Pineapple</string>
+		<key>calories</key>
+		<integer>50</integer>
+		<key>description</key>
+		<string>2 slices, 3&quot; diameter, 3/4&quot; thick (112 g/4 oz)</string>
+	</dict>
+	<key>Strawberry</key>
+	<dict>
+		<key>label</key>
+		<string>Strawberry</string>
+		<key>description</key>
+		<string>8 medium, (147 g/5.3 oz)</string>
+		<key>calories</key>
+		<integer>50</integer>
 	</dict>
 </dict>
 </plist>

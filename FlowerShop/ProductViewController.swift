@@ -15,6 +15,7 @@ class ProductViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var productPhoto: UIImageView!
     @IBOutlet weak var descriptionText: UITextView!
+    @IBOutlet weak var caloriesLabel: UILabel!
     
     var productID: String!
     var productCatalog: [String: [String: Any]]!
@@ -45,6 +46,7 @@ class ProductViewController: UIViewController {
             }
             label.text = productCatalog[productID]?["label"] as? String
             descriptionText.text = productCatalog[productID]?["description"] as? String
+            caloriesLabel.text = productCatalog[productID]?["calories"] as? String
             if let productImage = UIImage(named: productID + ".jpg") {
                 productPhoto.image = productImage
             }
