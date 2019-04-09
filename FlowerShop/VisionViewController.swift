@@ -196,7 +196,7 @@ class VisionViewController: ViewController {
     
     func setupLayers() {
         detectionOverlay = CALayer()
-        detectionOverlay.bounds = self.view.bounds.insetBy(dx: 20, dy: 20)
+        detectionOverlay.bounds = self.view.bounds.insetBy(dx: 20, dy: 40)
         detectionOverlay.position = CGPoint(x: self.view.bounds.midX, y: self.view.bounds.midY)
         detectionOverlay.borderColor = CGColor(colorSpace: CGColorSpaceCreateDeviceRGB(), components: [1.0, 1.0, 0.2, 0.7])
         detectionOverlay.borderWidth = 8

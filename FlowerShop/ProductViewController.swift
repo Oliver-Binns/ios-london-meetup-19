@@ -46,7 +46,9 @@ class ProductViewController: UIViewController {
             }
             label.text = productCatalog[productID]?["label"] as? String
             descriptionText.text = productCatalog[productID]?["description"] as? String
-            caloriesLabel.text = productCatalog[productID]?["calories"] as? String
+            if let calories = productCatalog[productID]?["calories"] as? Int {
+                caloriesLabel.text = "Only \(calories) calories!"
+            }
             if let productImage = UIImage(named: productID + ".jpg") {
                 productPhoto.image = productImage
             }
