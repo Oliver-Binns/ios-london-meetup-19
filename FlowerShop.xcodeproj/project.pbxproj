@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		76C149AE212CC860008E974C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76C149AD212CC85F008E974C /* LICENSE.txt */; };
 		76D66BC5213A1AF300AEF9D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D66BC4213A1AF300AEF9D9 /* Assets.xcassets */; };
-		A7FBBF0D225D20D400773AED /* FruitClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A7FBBF0C225D20D400773AED /* FruitClassifier.mlmodel */; };
+		A7ECF2FB225D334F001BFF76 /* Fruit.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A7ECF2FA225D334E001BFF76 /* Fruit.mlmodel */; };
 		A7FBBF0F225D22DD00773AED /* Apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FBBF0E225D22DD00773AED /* Apple.jpg */; };
 		A7FBBF13225D23AF00773AED /* Cherry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FBBF10225D23AF00773AED /* Cherry.jpg */; };
 		A7FBBF14225D23AF00773AED /* Orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7FBBF11225D23AF00773AED /* Orange.jpg */; };
@@ -40,7 +40,7 @@
 		76C149AD212CC85F008E974C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		76D66BC4213A1AF300AEF9D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94A0611094A060D000000001 /* Template_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Template_README.md; sourceTree = "<group>"; };
-		A7FBBF0C225D20D400773AED /* FruitClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FruitClassifier.mlmodel; sourceTree = "<group>"; };
+		A7ECF2FA225D334E001BFF76 /* Fruit.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Fruit.mlmodel; sourceTree = "<group>"; };
 		A7FBBF0E225D22DD00773AED /* Apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apple.jpg; sourceTree = "<group>"; };
 		A7FBBF10225D23AF00773AED /* Cherry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cherry.jpg; sourceTree = "<group>"; };
 		A7FBBF11225D23AF00773AED /* Orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orange.jpg; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 				FAB417F52099308400494E9C /* VisionViewController.swift */,
 				FAD500A71ED668B60074D713 /* LaunchScreen.storyboard */,
 				FAD500A21ED668B60074D713 /* Main.storyboard */,
-				A7FBBF0C225D20D400773AED /* FruitClassifier.mlmodel */,
+				A7ECF2FA225D334E001BFF76 /* Fruit.mlmodel */,
 				FAD500AA1ED668B60074D713 /* Info.plist */,
 				FA0F95C220B8BE9E00378A66 /* Product Resources */,
 				76D66BC4213A1AF300AEF9D9 /* Assets.xcassets */,
@@ -259,11 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7FBBF0D225D20D400773AED /* FruitClassifier.mlmodel in Sources */,
 				FAB417F62099308400494E9C /* VisionViewController.swift in Sources */,
 				FAD500A11ED668B60074D713 /* ViewController.swift in Sources */,
 				FAD5009F1ED668B60074D713 /* AppDelegate.swift in Sources */,
 				FA2ECFD320B7C9FB00C480B0 /* ProductViewController.swift in Sources */,
+				A7ECF2FB225D334F001BFF76 /* Fruit.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
